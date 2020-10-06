@@ -8,7 +8,7 @@ from functions.bot_func import *
 from caption.set_caption import *
 import os
 
-TOKEN=os.environ.get("BOT_TOKEN",None)
+TOKEN=os.environ.get("1372567299:AAGVmtqUBEH4J2i7VyYvGZNtrOKkdWtk5Hc",None)
 
 updater=Updater(TOKEN,use_context=True)
 dp=updater.dispatcher
